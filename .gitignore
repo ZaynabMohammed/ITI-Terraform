@@ -1,0 +1,3 @@
+.terraform/*
+.terraform.lock.hcl
+Proxy_Module/EC2_key.pem
