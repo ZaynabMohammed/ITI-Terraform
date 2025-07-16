@@ -1,5 +1,5 @@
-#Terraform-aws-deploy-infra
-##Secure Web App with Public Proxy + Private Backend on AWS using Terraform
+# Terraform-aws-deploy-infra
+## Secure Web App with Public Proxy + Private Backend on AWS using Terraform
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"; alt="Terraform" width="100" height="100">
   <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"; alt="AWS" width="100" height="100">
@@ -7,7 +7,7 @@
 This project deploys a scalable and secure AWS infrastructure using Terraform.
 It provisions networking, compute resources, and load balancers to host a full-stack web application.
 
-#Architecture Overview
+# Architecture Overview
 A VPC (10.0.0.0/16) consisting of:
 - 2Public Subnets > EC2 instances acting as Nginx Reverse Proxies
 - 2Private Subnets > EC2 instances running Web Application Backends (Node.js / Flask)
@@ -20,7 +20,7 @@ A VPC (10.0.0.0/16) consisting of:
 
 <img src="https://github.com/ZaynabMohammed/ITI-Terraform/blob/master/arch.png" width="1100" height="620" >
 
-#Build Arch
+# Build Arch
 ```bash
 # Terraform Initialize
 terraform init
@@ -31,7 +31,7 @@ terraform plan
 # Terraform Apply
 terraform apply
 ```
-#Verification
+# Verification
 After deployment:
 1. Frontend: Access the public ALB DNS in your browser:
    ```bash
