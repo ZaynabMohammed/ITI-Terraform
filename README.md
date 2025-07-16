@@ -18,7 +18,7 @@ A VPC (10.0.0.0/16) consisting of:
 
 #Infrastructure Diagram
 
-<img src="https://github.com/ZaynabMohammed/ITI-Terraform/blob/master/arch.png" width="1100" height="620" >
+<img src="https://github.com/ZaynabMohammed/ITI-Terraform/blob/master/arch.png" width="1000" height="600" >
 
 # Build Arch
 ```bash
@@ -37,6 +37,8 @@ After deployment:
    ```bash
      http://<public-alb-dns>:8080
    ```
+   <img src="https://github.com/ZaynabMohammed/ITI-Terraform/blob/master/final.png"  >
+
 2. Backend: The proxy forwards traffic to the Internal ALB (port 80), serving the Node.js app.
    
-   
+ 
